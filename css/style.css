@@ -40,6 +40,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .guide p {
@@ -47,6 +48,27 @@ header a {
     color: grey;
 }
 
-.guide img {
+.app {
+    gap: 20px; /* Adds space between grid items */
+    padding: 20px; /* Adds space around the entire grid */
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
+}
+
+.app a {
+    text-align: center;
+    display: block;
+    font-size: 1 rem;
+    color:aquamarine;
+}
+
+footer {
+    text-align: right;
+    color: grey;
+    padding: 20px;
 }
