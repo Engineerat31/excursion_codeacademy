@@ -19,3 +19,8 @@ header a {
     color:aquamarine;
     
 }
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
